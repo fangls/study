@@ -4,19 +4,19 @@
 123
 1月8日 15:19
 
-```java
-	 service {
-	  #vgroup->rgroup
-	  vgroup_mapping.my_test_tx_group = "default"
-	  #配置Client连接TC的地址
-	  default.grouplist = "127.0.0.1:8091"
-	  #degrade current not support
-	  enableDegrade = false
-	  #disable
-	  是否启用seata的分布式事务
-	  disableGlobalTransaction = false
-	}
-	 ```
+```js
+ service {
+  #vgroup->rgroup
+  vgroup_mapping.my_test_tx_group = "default"
+  #配置Client连接TC的地址
+  default.grouplist = "127.0.0.1:8091"
+  #degrade current not support
+  enableDegrade = false
+  #disable
+  是否启用seata的分布式事务
+  disableGlobalTransaction = false
+}
+```
 
 业务流程
  * 正常流程
