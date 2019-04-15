@@ -18,14 +18,14 @@
 }
 ```
 
-业务流程
- * 正常流程
-   1.business发起购买请求
-   2.storage扣减库存
-   3.order创建订单
-   4.account扣减余额
- * 异常流程
-   1.business发起购买请求
-   2.storage扣减库存
-   3.order创建订单
-   4.account`扣减余额异常`
+ **正常流程**
+   1. business发起购买请求
+   2. storage扣减库存
+   3. order创建订单
+   4. account扣减余额
+   
+ **异常流程**
+   1. business发起购买请求
+   2. storage扣减库存
+   3. order创建订单
+   4. account`扣减余额异常`
